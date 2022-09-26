@@ -1,0 +1,11 @@
+1: npm init -y
+
+2: npm install express ejs multer
+
+3:criar index.js com mini servidor e as configurações básica do ejs, importar o multer
+
+4: criar views/home.ejs com um form dentro com um input e um button
+
+5:usar o multer como middleware np app.post usando o 'img' pra linkar com o input name='img' em home.ejs
+
+6: criar um storage passando parâmetros do destination e filename com callbacks, em seguida passar  esse storage no multer pra depois ser chamado no app.post
